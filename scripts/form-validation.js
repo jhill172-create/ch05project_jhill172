@@ -50,4 +50,21 @@ function validateForm() {
 
 // Add event listener to submit button
 document.getElementById('submitBtn').addEventListener('click', validateForm);
+/* 
+<p>
+checkMissing() checks all inputs with the class “required” to see if they’re empty. 
+It counts missing fields and displays a message below the form.
+</p>
+
+<p>
+validateEmail() ensures that the email field has at least 8 characters. 
+If not, it adds a red border to show an error.
+</p>
+
+<p>
+validateForm() runs both checks together. If any field is missing or the email is invalid,
+it prevents form submission and alerts the user.
+</p>
+*/
+
 
